@@ -1,0 +1,1 @@
+FROM gitpod/gitpod/workspace-base
