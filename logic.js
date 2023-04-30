@@ -7,6 +7,6 @@ const countUp = () => {
 
 const greet = () => {
   const name = document.querySelector("#name").value;
-  const output = document.getElementById("greet");
+  const output = document.querySelector("#greet");
   output.innerText = "Hello, " + name + "!";
 };
