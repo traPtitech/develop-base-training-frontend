@@ -1,6 +1,14 @@
 image:
   file: .gitpod.Dockerfile
 
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+tasks:
+  - name: Start web server
+    init: python -m http.server 8000
+
 vscode:
   extensions:
     - mosapride.zenkaku
