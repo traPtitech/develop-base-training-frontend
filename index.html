@@ -1,4 +1,55 @@
 <!DOCTYPE html>
-<html>
-    <h1>Hello World from Gitpod!</h1>
-</html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./counter.js"></script>
+    <title>hijiki51の自己紹介</title>
+
+</head>
+<body>
+  <h1>hijiki51の自己紹介</h1>
+    <div>
+      <h2>基本情報</h2>
+      <img src="icon.png" alt="アイコン" id="icon">
+      <ul>
+        <li>traP ID: hijiki51</li>
+        <li>所属: 理学院物理学系</li>
+        <li>主戦場: インフラ</li>
+      </ul>
+    </div>
+    <div>
+    <h2>プログラミング</h2>
+    <h3>使える言語</h3>
+    <ul>
+      <li>Go</li>
+      <li>JavaScript/TypeScript</li>
+    </ul>
+    <h3>使えるツール群</h3>
+    <ul>
+      <li>Ansible</li>
+      <li>Terrafrom</li>
+      <li>CloudFormation</li>
+    </ul>
+  </div>
+  <p>
+    皆さん初めまして！hijiki51です！<br>
+    リアルで呼ぶときは「ひじき」と呼んでください！<br>
+   よろしくお願いします！
+  </p>
+  <!-- ここからカウンター-->
+  <div>
+    <h1>カウンター</h1>
+    <div id="count">回数: 0</div>
+    <button onclick="countUp()">クリック！</button>
+  </div>
+  <!-- ここから挨拶 -->
+  <div>
+    <h1>挨拶</h1>
+    <p>名前を入力してください</p>
+    <input type="text" id="name" name="name" size="10">
+    <button onclick="greet()">挨拶</button>
+    <p id="greet"></p>
+  </div>
+</body>
+</html> 
