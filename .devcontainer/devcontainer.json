@@ -1,0 +1,23 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "postAttachCommand": "python -m http.server 3000",
+    "customizations": {
+        "codespaces": {
+            "openFiles": [
+                "index.html"
+            ]
+        },
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "mosapride.zenkaku"
+            ]
+        }
+    },
+   "forwardPorts": [3000],
+   "portsAttributes": {
+      "3000": {
+         "onAutoForward": "openPreview"
+       }
+     }
+}
